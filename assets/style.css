@@ -1,0 +1,284 @@
+body {
+    background-image: url('../assets/images/sombre.jpg');
+
+}
+
+.resau{text-decoration: none;}
+main {
+    margin-top: 10vh;
+    background-color: rgba(0, 0, 0, 0.648);
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-bottom: 15vh;
+}
+#burger1{background-color: blanchedalmond; border-radius: 30%;}
+#burger2{background-color: blanchedalmond; border-radius: 30%;}
+#burger3{background-color: blanchedalmond; border-radius: 30%;}
+#burger4{background-color: blanchedalmond; border-radius: 30%;}
+.baniere {
+    display: flex;
+    place-content: center;
+}
+
+.ban {
+    width: 80%;
+    margin-top: 5vh;
+}
+
+#proc {
+    color: blanchedalmond;
+}
+
+#proI {
+    color: blanchedalmond;
+}
+
+#proA {
+    color: blanchedalmond;
+}
+
+#cont {
+    color: blanchedalmond;
+}
+
+#naaav {
+    background-color: black;
+}
+
+#presentation {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.5em;
+    color: blanchedalmond;
+}
+
+#secondP {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.5em;
+    color: blanchedalmond;
+}
+
+#threeP {
+    margin-top: 8vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.5em;
+    color: blanchedalmond;
+}
+
+.secondC {
+    display: flex;
+    margin-top: 15vh;
+}
+
+.threeC {
+    display: flex;
+    margin-top: 15vh;
+}
+
+#amd {
+    text-align: center;
+    color: blanchedalmond;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#intel {
+    text-align: center;
+    color: blanchedalmond;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#top {
+    padding-top: 5vh;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+#second {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+#comp1 {
+
+    margin-left: 5vw;
+    height: 30%;
+    width: 30%;
+}
+
+#comp2 {
+
+    height: 30%;
+    width: 30%;
+}
+
+.cardAmd {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    row-gap: 10%;
+    justify-items: center;
+}
+
+#title1 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title2 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title3 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title4 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title5 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title6 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title7 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title8 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title9 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title10 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title11 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#title12 {
+    font-size: 2em;
+    color: rgb(130, 41, 214);
+}
+
+#card1 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card2 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card3 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card4 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card5 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card6 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card7 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card8 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card9 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card10 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card11 {
+    background-color: rgb(167, 109, 221);
+}
+
+#card12 {
+    background-color: rgb(167, 109, 221);
+}
+
+form {
+    text-align: center;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    margin-right: 18vw;
+    margin-left: 18vw;
+}
+
+#mailing {
+    font-size: 2em;
+    margin-top: 5vh;
+}
+
+#email {
+    margin-top: 4vh;
+}
+#buttonSubmit{background-color: rgb(167, 109, 221) ; color: white;}
+
+footer {
+    color: blanchedalmond;
+    text-align: center;
+    background-color: black;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    
+}
+
+@media screen AND (max-width:768px) {
+    main {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .secondC {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .threeC {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .cardAmd {
+        grid-template-columns: 100%;
+        grid-template-rows: 16% 16% 16% 16% 16% 16%;
+        row-gap: 1%;
+    }
+}
