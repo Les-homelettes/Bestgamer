@@ -260,7 +260,7 @@ footer {
     
 }
 
-@media screen AND (max-width:768px) {
+@media screen AND (max-width:1000px) {
     main {
         margin-left: 2vh;
         margin-right: 2vh;
